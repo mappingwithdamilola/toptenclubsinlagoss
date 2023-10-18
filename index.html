@@ -84,7 +84,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Photos</th>\
-                        <td>' + (feature.properties['Photos'] !== null ? '<img src="images/' + String(feature.properties['Photos']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
+                        <td>' + (feature.properties['Photos'] !== null ? '<img src="_Users_damilolaajayi_Desktop_photos_Club/' + String(feature.properties['Photos']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
